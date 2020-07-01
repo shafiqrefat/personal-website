@@ -1,13 +1,12 @@
 body{
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 .top-section{
     height: 750px;
     background-image: url("images/personal-website/header-bg.png");
     background-size: 100% 750px;
-    background-position: left;
-    
-    
+    background-position: left;      
 }
 
 .half-width{
@@ -46,9 +45,7 @@ p{
     border-radius: 5px;  
 }
 #bio{
-    padding-right: 30px;
-    
-
+    padding-right: 30px;    
 }
 .person-name{
     color: orange;
@@ -84,8 +81,11 @@ p{
 }
 .comment-section{
     text-align: center;
-    background-image: url("images/personal-website/footer-bg.png");
     height: 400px;
+    
+}
+.client-comments{
+    background-image: url("images/personal-website/footer-bg.png");
     background-size: cover;
 }
 .paragraph{
@@ -95,11 +95,10 @@ p{
 
 .box{
     position: relative;
-    text-align: center;
-    width: 800px;
+    width: 600px;
     height: 100px;
     background-image:linear-gradient(135deg, blue,cyan);
-    margin: 10px 250px;
+    margin: 0px 370px;
     padding: 5px 20px;
     border-radius: 10px;
 }
@@ -108,11 +107,16 @@ p{
     color: white;
     text-align: center;
 }
+.gmail{
+    text-decoration: none;
+    color: white;
+    margin-left: 220px;
+}
 footer{
     text-align: center;
     color: dimgray;
     font-size: 12px;
-    padding-bottom: 15px;
+    padding: 100px 0px;
 }
 
 
